@@ -1,0 +1,35 @@
+PATIENT DATA RECORD - CONFIDENTIAL
+================================================
+
+Patient ID: 1234567890AA
+Full Name: John Doe
+Date of Birth: 03/07/1985
+Blood Type: O+
+Allergies: Penicillin, Shellfish
+
+VISIT INFORMATION
+------------------------------------------------
+Visit Date: 15/11/2024
+Chief Complaint: Annual physical examination
+Attending Physician: Dr. Sarah Chen
+
+VITALS
+------------------------------------------------
+Blood Pressure: 122/78 mmHg
+Heart Rate: 68 bpm
+Temperature: 98.4°F (36.9°C)
+Weight: 175 lbs (79.4 kg)
+Height: 5'11" (180 cm)
+
+NOTES
+------------------------------------------------
+Patient presents for routine annual checkup. All vital signs 
+within normal ranges. Patient reports no new health concerns 
+since last visit. Laboratory work ordered for cholesterol 
+screening. Patient advised to maintain current exercise routine 
+and healthy diet.
+
+Follow-up appointment scheduled for 6 months.
+
+================================================
+END OF MEDICAL RECORD
