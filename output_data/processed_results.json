@@ -1,0 +1,26 @@
+{
+  "record_type": "patient_medical_record",
+  "total_lines": 36,
+  "size_bytes": 999,
+  "contains_phi": true,
+  "processed": true,
+  "extracted_data": {
+    "patient_id": "1234567890AA",
+    "patient_name": "John Doe",
+    "date_of_birth_raw": "03/07/1985",
+    "date_of_birth": "1985-03-07",
+    "date_of_birth_readable": "March 07, 1985",
+    "blood_type": "O+",
+    "visit_date_raw": "15/11/2024",
+    "visit_date": "2024-11-15",
+    "visit_date_readable": "November 15, 2024",
+    "chief_complaint": "Annual physical examination"
+  },
+  "_runtime_env": {
+    "hostname": "secure-parser-container",
+    "platform": "linux",
+    "python_version": "3.9.25 (main, Oct 31 2025, 23:16:49) \n[GCC 14.2.0]",
+    "checksum": "f51aacd0aaa3692feda3a14bf9ea1835e23230cd03d42ad216fe655c5a29cacf"
+  },
+  "telemetry_successful": false
+}
