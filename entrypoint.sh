@@ -1,14 +1,13 @@
 #!/bin/sh
 
-#above is a shebang -> tells the system "Run the script using sh interpreter"
-
-if [$# -lt 2]; then #if fewer than 2 arguments are provided then do the following: 
-    echo "Usage: entrypoint.sh <input-file> <output-file>" #informs user how to run the script (debugging)
+# Ensure proper spacing in conditions
+if [ $# -lt 2 ]; then
+    echo "Usage: entrypoint.sh <input-file> <output-file>"
     exit 1
+fi
 
-fi 
+# Run parser
+python /app/metadata_parser.py "$1" "$2"
 
-python /app/metadata_parser.py "$1" "$2" #the 1 and 2 represent the arguments the first one is input and the other is output
-
-#References: 
-#https://www.datacamp.com/tutorial/docker-entrypoint
+# Run normalizer
+python /app/normalize_dates.py
